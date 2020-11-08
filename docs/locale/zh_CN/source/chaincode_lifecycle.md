@@ -7,6 +7,7 @@
 Chaincode runs in a secured Docker container isolated from the endorsing peer
 process. Chaincode initializes and manages ledger state through transactions
 submitted by applications.
+链码运行在背书节点进程隔离的安全的Docker容器中。链码通过应用程序提交的传事务来初始并管理账本状态。
 
 A chaincode typically handles business logic agreed to by members of the
 network, so it may be considered as a "smart contract". Ledger updates created
@@ -14,6 +15,8 @@ by a chaincode are scoped exclusively to that chaincode and can't be accessed
 directly by another chaincode. However, within the same network, given the
 appropriate permission a chaincode may invoke another chaincode to access
 its state.
+链码通常由网络成员来处理同意业务逻辑，因此可以将其视为一个“智能合约”。
+链码仅能更新该链码范围内的已经创建的账本，不能被另一个链码直接访问。
 
 In this concept topic, we will explore chaincode through the eyes of a
 blockchain network operator rather than an application developer. Chaincode
