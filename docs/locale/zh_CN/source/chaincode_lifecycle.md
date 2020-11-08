@@ -1,9 +1,9 @@
-# Fabric chaincode lifecycle
+# Fabric 链码生命周期
 
-## What is Chaincode?
+## 链码是什么?
 
-Chaincode is a program, written in [Go](https://golang.org), [Node.js](https://nodejs.org),
-or [Java](https://java.com/en/) that implements a prescribed interface.
+链码是一个用[Go](https://golang.org)、 [Node.js](https://nodejs.org)、
+或 [Java](https://java.com/en/)编写的程序， 它实现了规定的接口.
 Chaincode runs in a secured Docker container isolated from the endorsing peer
 process. Chaincode initializes and manages ledger state through transactions
 submitted by applications.
